@@ -2,7 +2,8 @@
   const { VerseThree, THREE } = window;
   const VERSE_WASM_URL =
     "https://cdn.jsdelivr.net/npm/@verseengine/verse-three@1.0.7/dist/verse_core_bg.wasm";
-  const ENTRANCE_SERVER_URL = "https://entrance.verseengine.cloud";
+//  const ENTRANCE_SERVER_URL = "https://entrance.verseengine.cloud";
+  const ENTRANCE_SERVER_URL = "https://cors-anywhere.herokuapp.com/https://entrance.verseengine.cloud";
   const ANIMATION_MAP = {
     idle: "/verseengine-demo/asset/animation/idle.fbx",
     walk: "/verseengine-demo/asset/animation/walk.fbx",

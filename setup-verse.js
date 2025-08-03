@@ -4,16 +4,16 @@
     "https://cdn.jsdelivr.net/npm/@verseengine/verse-three@1.0.7/dist/verse_core_bg.wasm";
   const ENTRANCE_SERVER_URL = "https://entrance.verseengine.cloud";
   const ANIMATION_MAP = {
-    idle: "../../asset/animation/idle.fbx",
-    walk: "../../asset/animation/walk.fbx",
+    idle: "/verseengine-demo/asset/animation/idle.fbx",
+    walk: "/verseengine-demo/asset/animation/walk.fbx",
   };
   const range = (n) => [...Array(n).keys()];
   const PRESET_AVATARS = [
     ...range(3).map((i) => `f${i}`),
     ...range(3).map((i) => `m${i}`),
   ].map((n) => ({
-    thumbnailURL: `../../asset/avatar/${n}.png`,
-    avatarURL: `asset/avatar/${n}.vrm`,
+    thumbnailURL: `/verseengine-demo/asset/avatar/${n}.png`,
+    avatarURL: `/verseengine-demo/asset/avatar/${n}.vrm`,
   }));
   const DEFAULT_AVATAR_URL =
     PRESET_AVATARS[Math.floor(Math.random() * PRESET_AVATARS.length)].avatarURL;

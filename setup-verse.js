@@ -109,6 +109,7 @@
         maxNumberOfPeople: mayBeLowSpecDevice ? 8 : 16,
         maxNumberOfParallelFileTransfers: mayBeLowSpecDevice ? 1 : 4,
         presetAvatars: PRESET_AVATARS,
+        roomId: "test-room"
       }
     );
 

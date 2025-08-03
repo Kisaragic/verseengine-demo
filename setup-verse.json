@@ -1,0 +1,14 @@
+{
+  "avatars": [
+    {
+      "id": "default",
+      "url": "https://cdn.jsdelivr.net/gh/VerseEngine/verse-sample-assets@main/avatars/vrm/sample.vrm"
+    }
+  ],
+  "spawnPoints": [
+    {
+      "position": [0, 0, 0],
+      "quaternion": [0, 0, 0, 1]
+    }
+  ]
+}
